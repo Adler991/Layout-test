@@ -1,0 +1,84 @@
+.slider {
+
+}
+
+.slider__item  {
+  width: 100%;
+  min-height: 579px;
+}
+
+.slider__item-first {
+  background: url('../img/slide1.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.slider-center {
+  padding-top: 80px;
+}
+
+.slider__description {
+  padding: 34px 39px 42px 40px;
+  min-height: 356px;
+  width: 100%;
+  max-width: 552px;
+  
+  background: rgba(255,255,255,.95);
+}
+
+.slider__slide-title {
+  margin-bottom: 18px;
+  
+  font-family: @mainTitle-font, 'Times New Roman', serif;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  color: #404040;
+}
+
+.slider__slide-info {
+  
+  font-family: @main-font, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.1px;
+  color: #404040;
+}
+
+.slider__item-second {
+  background: url('../img/slide2.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.slider__description-second {
+  max-width: 593px;
+}
+
+.dots {
+  bottom: 93px;
+  left: 144px;
+  
+  width: 50px;
+}
+
+.dots li {
+  margin: 0 1.5px;
+}
+
+.dots li button::before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.6;
+}
+
+.dots li.slick-active button::before {
+  opacity: 1;
+}
+
+.svg {
+  height: 15px;
+  width: 15px;
+}
